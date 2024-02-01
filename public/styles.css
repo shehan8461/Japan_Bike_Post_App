@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-image: url('j1.jpeg');
+    background-size: cover;
+    background-position: center;
+}
+/* General button styling */
+button {
+    display: inline-block;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+/* Edit button style */
+button.edit {
+    background-color: #28a745; /* Green color for edit */
+    color: #fff;
+}
+
+/* Delete button style */
+button.delete {
+    background-color: #dc3545; /* Red color for delete */
+    color: #fff;
+}
+
+/* Hover effect */
+button:hover {
+    opacity: 0.8;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: rgba(76, 63, 63, 0.7); /* Use rgba for a semi-transparent color */
+    backdrop-filter: blur(10px); /* Adjust the blur amount as needed */
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #333;
+    color: #fff;
+}
+
+tr:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+a {
+    text-decoration: none;
+}
+
+a.edit {
+    color: #28a745;
+}
+
+a.delete {
+    color: #dc3545;
+}
+
+a:hover {
+    opacity: 0.8;
+}
